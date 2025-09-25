@@ -27,7 +27,7 @@ public class DatabaseConfiguration {
                     config.setDriverClassName("com.mysql.cj.jdbc.Driver");
 
                     // Pool settings
-                    config.setMaximumPoolSize(15);
+                    config.setMaximumPoolSize(25);
                     config.setMinimumIdle(2);
                     config.setIdleTimeout(30000);
                     config.setMaxLifetime(1800000);
